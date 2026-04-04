@@ -1,32 +1,40 @@
-# 🧠 Next Word Prediction using LSTM
+# 🔮 Next Word Predictor (LSTM)
 
-This project is a deep learning-based Next Word Prediction system built using LSTM (Long Short-Term Memory).
+This project is an AI-based text generator that predicts the next words using an LSTM model.
 
-## 🚀 Features
-- Predicts next 1–5 words
-- Built with TensorFlow & Keras
-- Interactive UI using Streamlit
+## 🚀 Live Demo
+👉 [Hugging Face App](PASTE_YOUR_LINK_HERE)
 
-## 🛠 Tech Stack
+## 💻 Source Code
+👉 This repository contains training + deployment code
+
+## 🧠 Features
+- Multi-word prediction
+- Adjustable output length
+- Temperature-based creativity control
+- Interactive UI using Gradio
+
+## ⚙️ Tech Stack
 - Python
 - TensorFlow / Keras
+- Gradio
 - NumPy
-- Streamlit
 
-## 📂 Project Files
-- app.py → Streamlit UI
-- lstm_model.h5 → Trained model
-- tokenizer.pkl → Tokenizer
-- max_len.pkl → Sequence length
+## 📊 Model
+- Trained using LSTM (Recurrent Neural Network)
+- Sequence-based next word prediction
 
-## ▶️ How to Run
-1. Install dependencies:
-2. Run app:
+## 📁 Files
+- `app.py` → Web app
+- `DL_project.ipynb` → Training notebook
+- `lstm_model.h5` → Trained model
+- `tokenizer.pkl` → Tokenizer
+- `max_len.pkl` → Sequence length
 
-## 📌 Future Improvements
-- Better text generation
-- Deploy online
-- Improve accuracy
+## 💡 Learnings
+- Handling NLP sequence data
+- Training deep learning models
+- Deploying ML apps using Hugging Face
 
 ---
-⭐ Star this repo if you like it!
+⭐ If you like this project, consider giving it a star!
